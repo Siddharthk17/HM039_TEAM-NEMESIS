@@ -936,7 +936,7 @@ NEMESIS doesn't sell data. We don't even *have* your data—it's in *your* Fireb
 
 ### **Feature Requests**
 
-Want something specific? [Open an issue](https://github.com/yourusername/nemesis-os/issues/new?template=feature_request.md) with:
+Want something specific? [Open an issue](https://github.com/Siddharthk17/nemesis-os/issues/new?template=feature_request.md) with:
 - 🎯 **Use Case** — Why you need it
 - 💡 **Proposed Solution** — How it should work
 - 🎨 **UI Mockup** — Visual reference (optional)
@@ -1020,10 +1020,10 @@ NEMESIS is **100% open-source**. PRs are welcome for:
 ### **Good First Issues**
 
 Looking to contribute? Start here:
-- 🟢 [Add new theme palette](https://github.com/yourusername/nemesis-os/issues)
-- 🟢 [Create hydration reminder notification](https://github.com/yourusername/nemesis-os/issues)
-- 🟢 [Build CSV export feature](https://github.com/yourusername/nemesis-os/issues)
-- 🟢 [Implement keyboard shortcuts](https://github.com/yourusername/nemesis-os/issues)
+- 🟢 [Add new theme palette](https://github.com/Siddharthk17/nemesis-os/issues)
+- 🟢 [Create hydration reminder notification](https://github.com/Siddharthk17/nemesis-os/issues)
+- 🟢 [Build CSV export feature](https://github.com/Siddharthk17/nemesis-os/issues)
+- 🟢 [Implement keyboard shortcuts](https://github.com/Siddharthk17/nemesis-os/issues)
 
 ---
 
@@ -1124,7 +1124,7 @@ SOFTWARE.
 ### 🐛 **Bug Reports**
 Found a bug? Firestore not syncing?
 
-[Open an Issue →](https://github.com/yourusername/nemesis-os/issues/new?template=bug_report.md)
+[Open an Issue →](https://github.com/Siddharthk17/nemesis-os/issues/new?template=bug_report.md)
 
 </td>
 <td align="center" width="33%">
@@ -1132,7 +1132,7 @@ Found a bug? Firestore not syncing?
 ### 💡 **Feature Requests**
 Have an idea? Want a new widget?
 
-[Start a Discussion →](https://github.com/yourusername/nemesis-os/discussions/new)
+[Start a Discussion →](https://github.com/Siddharthk17/nemesis-os/discussions/new)
 
 </td>
 <td align="center" width="33%">
@@ -1140,7 +1140,7 @@ Have an idea? Want a new widget?
 ### 📧 **Direct Contact**
 Need private support?
 
-[Email Me →](mailto:your.email@example.com)
+[Email Me →](mailto:siddharthkakade7777@gmail.com)
 
 </td>
 </tr>
@@ -1170,26 +1170,14 @@ Help others discover it
 Make it your own
 
 </td>
-<td align="center">
-
-**📢 Share on Twitter**  
-Tag [@yourusername](https://twitter.com/yourusername)
-
-</td>
-<td align="center">
-
-**☕ Buy me a coffee**  
-[Ko-fi](https://ko-fi.com/yourusername)
-
-</td>
 </tr>
 </table>
 
 <br/>
 
-<img src="https://img.shields.io/github/stars/yourusername/nemesis-os?style=social" alt="GitHub stars"/>
-<img src="https://img.shields.io/github/forks/yourusername/nemesis-os?style=social" alt="GitHub forks"/>
-<img src="https://img.shields.io/github/watchers/yourusername/nemesis-os?style=social" alt="GitHub watchers"/>
+<img src="https://img.shields.io/github/stars/Siddharthk17/nemesis-os?style=social" alt="GitHub stars"/>
+<img src="https://img.shields.io/github/forks/Siddharthk17/nemesis-os?style=social" alt="GitHub forks"/>
+<img src="https://img.shields.io/github/watchers/Siddharthk17/nemesis-os?style=social" alt="GitHub watchers"/>
 
 </div>
 
@@ -1199,8 +1187,8 @@ Tag [@yourusername](https://twitter.com/yourusername)
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&repo=nemesis-os&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&icon_color=89b4fa&text_color=cdd6f4" width="48%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=yourusername&theme=catppuccin-mocha&hide_border=true&background=1e1e2e&stroke=89b4fa&ring=cba6f7&fire=f38ba8&currStreakLabel=cba6f7" width="48%" alt="GitHub Streak"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Siddharthk17&repo=nemesis-os&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&icon_color=89b4fa&text_color=cdd6f4" width="48%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Siddharthk17&theme=catppuccin-mocha&hide_border=true&background=1e1e2e&stroke=89b4fa&ring=cba6f7&fire=f38ba8&currStreakLabel=cba6f7" width="48%" alt="GitHub Streak"/>
 
 </div>
 
