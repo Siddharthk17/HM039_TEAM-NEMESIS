@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEMESIS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              mono: ['"JetBrains Mono"', 'monospace'],
+              sans: ['"JetBrains Mono"', 'monospace'],
+            },
+            colors: {
+              tui: {
+                base: 'var(--color-base)',
+                surface: 'var(--color-surface)',
+                overlay: 'var(--color-overlay)',
+                text: 'var(--color-text)',
+                subtext: 'var(--color-subtext)',
+                
+                blue: 'var(--color-blue)',
+                mauve: 'var(--color-mauve)',
+                green: 'var(--color-green)',
+                yellow: 'var(--color-yellow)',
+                red: 'var(--color-red)',
+              }
+            },
+            boxShadow: {
+              'tui': '4px 4px 0px 0px rgba(0,0,0,0.3)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* 1. DRACULA (Default) */
+      :root {
+        --color-base: #1e1e2e;
+        --color-surface: #181825;
+        --color-overlay: #313244;
+        --color-text: #cdd6f4;
+        --color-subtext: #a6adc8;
+        --color-blue: #89b4fa;
+        --color-mauve: #cba6f7;
+        --color-green: #a6e3a1;
+        --color-yellow: #f9e2af;
+        --color-red: #f38ba8;
+      }
+
+      /* 2. OMARCHY AURA */
+      .theme-aura {
+        --color-base: #15141b;
+        --color-surface: #1b1a23;
+        --color-overlay: #2f2d3b;
+        --color-text: #edecee;
+        --color-subtext: #6d6d6d;
+        --color-blue: #82e2ff;
+        --color-mauve: #a277ff;
+        --color-green: #61ffca;
+        --color-yellow: #ffca85;
+        --color-red: #ff6767;
+      }
+
+      /* 3. MEMENTO MORI (Void/Black) */
+      .theme-memento {
+        --color-base: #000000;
+        --color-surface: #09090b;
+        --color-overlay: #27272a;
+        --color-text: #f4f4f5;
+        --color-subtext: #71717a;
+        --color-blue: #3b82f6;
+        --color-mauve: #d4d4d8; /* Silver/White for accents */
+        --color-green: #22c55e;
+        --color-yellow: #eab308;
+        --color-red: #ef4444;
+      }
+
+      /* 4. TOKYO NIGHT STORM */
+      .theme-tokyo {
+        --color-base: #24283b;
+        --color-surface: #1f2335;
+        --color-overlay: #414868;
+        --color-text: #c0caf5;
+        --color-subtext: #565f89;
+        --color-blue: #7aa2f7;
+        --color-mauve: #bb9af7;
+        --color-green: #9ece6a;
+        --color-yellow: #e0af68;
+        --color-red: #f7768e;
+      }
+
+      body {
+        background-color: var(--color-base);
+        color: var(--color-text);
+        font-family: 'JetBrains Mono', monospace;
+        overflow: hidden; /* App-like feel */
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      /* Clean Scrollbar */
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: var(--color-surface); }
+      ::-webkit-scrollbar-thumb { background: var(--color-overlay); }
+      ::-webkit-scrollbar-thumb:hover { background: var(--color-subtext); }
+
+      ::selection {
+        background: var(--color-mauve);
+        color: var(--color-base);
+      }
+      
+      .tui-border {
+        border: 2px solid var(--color-overlay);
+      }
+      
+      /* React Grid Layout Styles */
+      .react-grid-layout { position: relative; transition: height 200ms ease; }
+      .react-grid-item { transition: all 200ms ease; transition-property: left, top; }
+      .react-grid-item.cssTransforms { transition-property: transform; }
+      .react-grid-item.resizing { z-index: 100; box-shadow: 0 0 10px rgba(0,0,0,0.5); }
+      .react-grid-item.react-grid-placeholder { background: var(--color-mauve) !important; opacity: 0.2; border-radius: 4px; z-index: 0; }
+
+      /* Custom Resize Handle */
+      .react-resizable-handle {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        bottom: 0;
+        right: 0;
+        cursor: se-resize;
+        z-index: 100;
+        opacity: 0; /* Hidden by default */
+      }
+      
+      /* Visible only when editing class is active or similar context */
+      .react-grid-item.react-grid-placeholder {
+         opacity: 0.1 !important;
+         background: var(--color-text) !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.294.0?deps=react@18.3.1",
+    "recharts": "https://esm.sh/recharts@2.12.7?deps=react@18.3.1,react-dom@18.3.1",
+    "react-grid-layout": "https://esm.sh/react-grid-layout@1.4.4?deps=react@18.3.1,react-dom@18.3.1",
+    "firebase/app": "https://esm.sh/firebase@10.8.0/app",
+    "firebase/auth": "https://esm.sh/firebase@10.8.0/auth",
+    "firebase/firestore": "https://esm.sh/firebase@10.8.0/firestore",
+    "firebase/": "https://esm.sh/firebase@^12.8.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
