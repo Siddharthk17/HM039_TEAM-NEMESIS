@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:89b4fa,100:a6e3a1&height=200&section=header&text=NEMESIS&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Neural%20Executive%20Management%20%26%20Integrated%20System&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:cba6f7,50:89b4fa,100:a6e3a1&height=200&section=header&text=NEMESIS&fontSize=90&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Neural%20Executive%20Management%20&%20Integrated%20System&descAlignY=55&descSize=20"/>
 
 <h3 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=CBA6F7&center=true&vCenter=true&width=800&lines=🧠+Your+Life%2C+Compiled;📊+Track+Everything%2C+Master+Anything;⚡+Real-Time+Cloud+Synchronization;🎯+Built+for+Terminal+Addicts;🔥+Discipline+as+Code" alt="Typing SVG" />
